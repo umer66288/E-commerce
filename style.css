@@ -1,0 +1,106 @@
+*{
+    font-family: 'Overpass', sans-serif;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+.card-bg {
+    background: url(images/cardbg.jpg) center;
+    background-size: cover;
+    width: 100%;
+  }
+  :root {
+    --swiper-theme-color: black;
+    /* --swiper-theme-size: 20px; */
+  }
+  .bn:hover {
+    --swiper-theme-color: rgb(181, 8, 8);
+  }
+  .sale{
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 3px;
+  }
+ .product img{
+    transition: transform 0.5s;
+ }
+ .product img:hover{
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+ }
+ .testimonial{
+    background-color: rgb(255 215 162);
+  }
+ .gotopbtn{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 1;
+}
+.dropdown-Menu{
+    display: none;
+}
+.dropdown:hover .dropdown-Menu {
+    display: block;
+  }
+  .font-style{
+    font-family: 'Playfair Display', serif;
+  }
+  input {
+    border: 1px solid rgb(227 227 227) !important;
+    outline: none;
+  }
+  #sear{
+    display: none;
+  }
+  .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color:white;
+    background-color: rgb(181, 8, 8);
+  }
+  .dropdown-menu {
+    --bs-dropdown-link-active-bg: rgb(197, 196, 196);
+  }
+  .nav-link {
+    color: black;
+}
+a:hover{
+color: rgb(181, 8, 8) !important;
+}
+.icons i:hover{
+    color: rgb(181, 8, 8) !important;
+}
+.recol:hover{
+    color: rgb(181, 8, 8) !important;
+}
+.num-item{
+    position: absolute;
+    background: rgb(181, 8, 8);
+    color: #fff;
+    border-radius: 50%;
+    font-size: 12px;
+    top: -7px;
+    right: -2px;
+    padding: 1px 6px;
+    font-style: normal;
+}
+.num-item:hover{
+    background-color: black;
+    color: white;
+}
+.form-check-input:checked {
+  background-color: rgb(181, 8, 8);
+  border-color: rgb(181, 8, 8);
+}
+.login,
+.sigin{
+  width: 60%;
+}
+.form-select{
+  background-color: #e7e5e5;
+}
+@media only screen and (max-width: 770px) {
+.login,
+.sigin {
+    width: 100%;
+  }
+}
